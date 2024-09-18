@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>::Rank_Calculator::SLRC 2024</title>
+    <title>::_SLRC_RANK_2024_::</title>
     <link rel="" href="script.js">
     <script>
         // alert("Dear aspirant, we request you to share this form with other fellow aspirants so we can have maximum amount of data and predict a more errorless cut-off & rank")
@@ -14,13 +14,14 @@
     margin: 0;
 }
 
+
         header {
             width: 100%;
             
             text-align: center;
             border-bottom: 1px solid grey;
             box-shadow: 2px 2px 2px 2px grey;
-            background-color: rgb(4, 104, 82);
+            background-color: rgb(10, 10, 10);
             color: white;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-size: 25px;
@@ -33,16 +34,29 @@
         input {
             width: 90%;
             margin-left: 5%;
+            height: 25px;
 
 
         }
 
         select {
-
+            height: 25px;
             width: 90%;
             margin-left: 5%;
 
         }
+        button {
+          background-color: rgb(190, 226, 159);
+            width: 90%;
+            margin-left: 5%;
+            border-radius: 5px;
+            cursor: not-allowed;
+            font-size: 20px;
+            border: 1px solid grey;
+            height: 30px;
+
+        }
+
 
         form {
             border: 1px solid rgb(190, 190, 190);
@@ -64,8 +78,8 @@
         }
 
         #sub {
-            background-color: rgb(37, 39, 38);
-            color: white;
+            background-color: rgb(136, 190, 192);
+            color: rgb(20, 18, 18);
             border-radius: 5px;
             cursor: pointer;
             font-size: 20px;
@@ -81,7 +95,7 @@
         }
         p{
             font-family: 'Times New Roman', Times, serif;
-            font-size: 18px;
+            font-size: 20px;
             text-align: justify;
         }
         h3{
@@ -89,22 +103,33 @@
             color: rgb(124, 2, 2);
         }
         marquee{
-            color: red;
+            color: rgb(241, 240, 240);
             font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
         }
+        a{
+            text-decoration: none;
+            color: red;
+            cursor: not-allowed;
+           
+        }
+
+        
+        
+
     </style>
 </head>
 
 <body>
-    <header>SLRC Rank Calculator</header>
-    <br><br> <br>
+    <header>SLRC Rank Calculator <br> <hr><marquee behavior="" direction="left">This is not a official website of SLRC or SEBA &copy; Allright reserved with developer!</marquee></header>
+    <br><br> <br> <br>
     <main>
 
         <form action="https://script.google.com/macros/s/AKfycbyNtHvPDUgK507PTdliha9n7_9nDjwPqZZ0bUfVZk6Sd3-nva8iozyyY9wR2kHpX62j/exec"
         method="post"
         id="Rank-Form" onsubmit="SubmitForm()"> 
-            <h3>Rank Calculator - SLRC/HSSLC Level <br>(Based on tentative answer keys)</h3><br>
-            <marquee behavior="" direction="left">This is not a official website of SLRC or SEBA &copy; Allright reserved with developer!</marquee>
+            <h3 style="color: rgb(5, 96, 119);">Rank Calculator - SLRC/HSSLC Level <br>(Based on tentative answer keys)</h3><br>
+            
             <hr><br>
             <label for="Name"><h4>Name</h4></label>  <br>
             <input type="text" name="Name" required>
@@ -145,9 +170,17 @@
                 <option value="No">No</option>
             </select> <br><br>
             <input type="submit" name="Submit" value="SUBMIT" id="Sub">
+            <br><br>
+           
+            <Button> <a href="xxx">&#11177; Click Here to Checck Your Rank</a></Button>
         </form>
         <script src="script.js"></script>
     </main>
-</body>
 
+</body>
+<footer>
+<div>
+    <h4>DECLARATION <hr> </h4> <p>This website isn't owned by any government entity, the cutoff predicted here might or might not be differ with real cut-off marks. The cut off marks displayed here is based on data analysis of only.</p>
+</div>
+</footer>
 </html>
